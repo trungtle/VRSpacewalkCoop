@@ -3,6 +3,22 @@
 	"EngineAssociation": "4.15",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "VRSpacewalk",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "OnlineSubsystemSteam",
+			"Enabled": true
+		}
+	],
 	"TargetPlatforms": [
 		"PS4",
 		"WindowsNoEditor"
